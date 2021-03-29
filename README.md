@@ -17,8 +17,9 @@ $ elm init
 $ elm install elm/json
 ```
 
-index.html
-Main.elm
+Create index.html
+
+Create src/Main.elm
 
 ```
 $ mkdir static
@@ -27,11 +28,15 @@ $ elm make src/Main.elm --optimize --output=static/main.js
 
 ## Erlang
 
-rebar.config
-websocket.app.src
-websocket_app.erl
-websocket_sup.erl
-ws_h.erl
+Modify rebar.config
+
+Modify websocket.app.src
+
+Modify websocket_app.erl
+
+Modify websocket_sup.erl
+
+Create ws_h.erl
 
 ```
 $ cd ..
