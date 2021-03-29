@@ -1,0 +1,16 @@
+{application, websocket,
+ [{description, "Elm Cowboy Websocket example"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {websocket_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
